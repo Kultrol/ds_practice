@@ -7,7 +7,7 @@ class Stack:
     def __init__(self) -> None:
         self.stack = deque()
 
-    def push(self, value: Any):
+    def push(self, value: Any) -> None:
         self.stack.append(value)
 
     def pop(self) -> Any:
